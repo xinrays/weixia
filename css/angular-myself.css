@@ -1,0 +1,270 @@
+.myself_login {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #FCFCFC;
+  margin-top: 20px;
+}
+.myself_login > span {
+  width: 25%;
+  height: 80px;
+  float: left;
+  position: relative;
+}
+.myself_login > span img {
+  height: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+}
+.myself_login > p {
+  width: 65%;
+  padding: 2px 20px;
+  font-size: 16px;
+  line-height: 80px;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.myself_login > div {
+  width: 15%;
+  height: 80px;
+  float: left;
+  position: relative;
+}
+.myself_login > div img {
+  height: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+}
+.photo_album {
+  display: flex;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  background-color: #FCFCFC;
+  margin-top: 20px;
+}
+.photo_album > span {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid #E3E3E3;
+}
+.photo_album > span > span {
+  width: 15%;
+  height: 50px;
+  float: left;
+  position: relative;
+}
+.photo_album > span > span i {
+  height: 30%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: dodgerblue;
+}
+.photo_album > span > p {
+  width: 85%;
+  font-size: 16px;
+  line-height: 50px;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.collect {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #FCFCFC;
+  cursor: pointer;
+}
+.collect > span {
+  width: 90%;
+  margin: 0 auto;
+}
+.collect > span > span {
+  width: 15%;
+  height: 50px;
+  float: left;
+  position: relative;
+}
+.collect > span > span i {
+  height: 30%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: dodgerblue;
+}
+.collect > span > p {
+  width: 85%;
+  font-size: 16px;
+  line-height: 50px;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.wallet {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #FCFCFC;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.wallet > span {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid #E3E3E3;
+}
+.wallet > span > span {
+  width: 15%;
+  height: 50px;
+  float: left;
+  position: relative;
+}
+.wallet > span > span i {
+  height: 30%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: dodgerblue;
+}
+.wallet > span > p {
+  width: 85%;
+  font-size: 16px;
+  line-height: 50px;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.cardBag {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #FCFCFC;
+  cursor: pointer;
+}
+.cardBag > span {
+  width: 90%;
+  margin: 0 auto;
+}
+.cardBag > span > span {
+  width: 15%;
+  height: 50px;
+  float: left;
+  position: relative;
+}
+.cardBag > span > span i {
+  height: 30%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: dodgerblue;
+}
+.cardBag > span > p {
+  width: 85%;
+  font-size: 16px;
+  line-height: 50px;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.expression {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #FCFCFC;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.expression > span {
+  width: 90%;
+  margin: 0 auto;
+}
+.expression > span > span {
+  width: 15%;
+  height: 50px;
+  float: left;
+  position: relative;
+}
+.expression > span > span i {
+  height: 30%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFD700;
+}
+.expression > span > p {
+  width: 85%;
+  font-size: 16px;
+  line-height: 50px;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.setUp {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #FCFCFC;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.setUp > span {
+  width: 90%;
+  margin: 0 auto;
+}
+.setUp > span > span {
+  width: 15%;
+  height: 50px;
+  float: left;
+  position: relative;
+}
+.setUp > span > span i {
+  height: 30%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: dodgerblue;
+}
+.setUp > span > p {
+  width: 85%;
+  font-size: 16px;
+  line-height: 50px;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+/*# sourceMappingURL=angular-myself.css.map */

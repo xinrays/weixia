@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../js/angular.min.js" ></script>
+		<script type="text/javascript" src="../js/angular-ui-router.js" ></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var angular = angular.module('myApp',['ui.router']);
+			angular
+			.controller('myCler',['$scope','$state', function($scope, $state) {
+				
+			}])
+			.controller('user',['$scope','$stateParams', function ($scope, $stateParams) {
+				$scope.type2 = $stateParams.type;
+			}])
+			.controller('home',['$scope','$state', function ($scope, $state) {
+				$scope.abc = () => {
+					$state.go('/user',{type:'1'});
+				}
+			}])
+			.config(($stateProvider, $urlRouterProvider) => {
+				$urlRouterProvider.otherwise('/home');
+				$stateProvider
+//				.state("one",{
+//					templateUrl:'sabPage/main.html',
+//					controller:'bookrack'
+//				})
+				.state("home", { //导航用的名字，如<a ui-sref="login">login</a>里的login
+					params:{},
+					name:"home",
+			        url: '/home',    //访问路径 
+			        templateUrl:"sabPage/name.html",
+			        controller:"home"
+			    })
+				.state("user", {
+					params:{"type":null},
+					name:"user",
+					url:'/user',
+					templateUrl:"sabPage/user.html",
+					controller:"user"
+				})
+			})
+		</script>
+		<div ng-app="myApp" ng-controller="myCler">
+			<div ui-view></div>
+			<a ui-sref="home">/</a>
+			<a ui-sref="user">user</a>
+		</div>
+		
+	</body>
+</html>
+
+<!--<!DOCTYPE html> 
+<html ng-app="myApp"> 
+  <head> 
+    <meta charset="UTF-8"> 
+    <title>ui-route</title> 
+    <script type="text/javascript" src="../js/angular.min.js" ></script>
+	<script type="text/javascript" src="../js/angular-ui-router.js" ></script>
+  </head> 
+  <style type="text/css"> 
+    .active{ 
+      color:red; 
+      font-weight:bold; 
+    } 
+  </style> 
+  <body> 
+    <ul> 
+      <li><a ui-sref="hello" ui-sref-active='active'>Hello</a></li> 
+      <li><a ui-sref="world" ui-sref-active='active'>world</a></li> 
+    </ul>
+    <div>
+      <ui-view></ui-view> 
+    </div>   
+  </body> 
+  <script> 
+    var app=angular.module("myApp",["ui.router"]); 
+    /* 
+     $stateProvider: Ui路由中的状态服务提供者 
+    */ 
+    app.config(["$stateProvider","$urlRouterProvider",function($stateProvider,$urlRouterProvider){ 
+      $urlRouterProvider.otherwise("/hello"); 
+        
+      $stateProvider.state({ 
+        name:"hello", 
+        url:"/hello", 
+        template:"<h1>这是hello对应的内容</h1>" 
+      }).state({ 
+        name:"world", 
+        url:"/world", 
+        template:"<h1>这是world跳转之后对应的内容</h1>" 
+      }); 
+    }]); 
+  
+  </script> 
+</html>-->

@@ -1,0 +1,141 @@
+.loginQueen {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #FCFCFC;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.loginQueen > h3 {
+  width: 90%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: inherit;
+  border-bottom: 1px solid #E3E3E3;
+  cursor: pointer;
+}
+.loginQueen > h3 > p {
+  line-height: 70px;
+  font-size: 16px;
+}
+.loginQueen > h3 > span {
+  line-height: 70px;
+  flex-wrap: wrap;
+  justify-content: right;
+  position: relative;
+}
+.loginQueen > h3 > span > img {
+  height: 80%;
+  margin-top: 6px;
+  border-radius: 50px;
+}
+.loginQueen > h3:hover {
+  background-color: #FAFAFA;
+}
+.loginQueen > a {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: inherit;
+  position: relative;
+  border-bottom: 1px solid #E3E3E3;
+  cursor: pointer;
+}
+.loginQueen > a > p {
+  line-height: 40px;
+}
+.loginQueen > a span {
+  line-height: 40px;
+}
+.loginQueen > a:hover {
+  background-color: #FAFAFA;
+}
+.loginQueen > div {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: inherit;
+  position: relative;
+  cursor: pointer;
+}
+.loginQueen > div > p {
+  line-height: 40px;
+}
+.loginQueen > div span {
+  line-height: 40px;
+}
+.loginQueen > div:hover {
+  background-color: #FAFAFA;
+}
+.Login_sex {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #FCFCFC;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Login_sex > a {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: inherit;
+  position: relative;
+  cursor: pointer;
+}
+.Login_sex > a > p {
+  line-height: 40px;
+}
+.Login_sex > a span {
+  line-height: 40px;
+}
+.Login_sex > a:hover {
+  background-color: #FAFAFA;
+}
+.logint {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.logint > input {
+  cursor: pointer;
+  width: 95%;
+  border: 0;
+  background-color: #FA2020;
+  outline: none;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+.logint > input:hover {
+  background-color: #FA5555;
+}
+.returnMyself {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.returnMyself > input {
+  cursor: pointer;
+  width: 95%;
+  border: 0;
+  border-radius: 5px;
+  background-color: #A1A1A1;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 14px;
+}
+.returnMyself > input:hover {
+  background-color: #C1CDC1;
+}
+/*# sourceMappingURL=angular-loginQueen.css.map */

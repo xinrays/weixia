@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="css/angular-login.css" />
+
+<form class="login">
+	<span>
+		<p>账号</p>
+		<input type="text" ng-model="user" placeholder="请输入微下账号" />
+	</span>
+	<span>
+		<p>密码</p>
+		<input type="password" ng-model="pass" placeholder="请输入密码" />
+	</span>
+	<nav>
+		<span><a>忘记密码</a></span>
+		<p><a href="#/sign">注册</a></p>
+	</nav>
+	<div>
+		<input ng-click="login()" type="submit" value="登录" />
+	</div>
+	<div>
+		<a href="#/myself">返回</a>
+	</div>
+</form>

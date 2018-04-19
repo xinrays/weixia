@@ -1,0 +1,41 @@
+.bookrack_page{
+    display: flex;
+    cursor: pointer;
+    &>span{
+        width:25%;
+        height:100px;
+        float: left;
+        position: relative;
+        img{
+            height: 60%;
+            position:absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &>div{
+        width: 75%;
+        height:100px;
+        float: right;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: inherit;
+        justify-content: center;
+        border-bottom:1px #E3E3E3 solid ;
+        &>h3{
+            padding:2px 20px;
+            color: #333;
+        }
+        &>p{
+            padding:2px 20px;
+            font-size: 14px;
+            color: #999;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+        }
+    }
+}

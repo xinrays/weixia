@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="css/angular-loginQueen.css" />
+
+<div class="loginQueen">
+	<h3 ng-click="loginQueenHeadPor()">
+		<p>头像</p>
+		<span><img ng-src="{{headPor}}"></span>
+	</h3>
+	<a ng-click="loginQueenNickname()">
+		<p>昵称</p>
+		<span>{{nickname}}</span>
+	</a>
+	
+	<div>
+		<p>手机号码</p>
+		<span><string>{{username}}</string></span>
+	</div>
+</div>
+
+<div class="Login_sex">
+	<a ng-click="loginQueenSex()">
+		<p>性别</p>
+		<span>{{gender}}</span>
+	</a>
+</div>
+
+<div class="logint">
+	<input ng-click="logint()" type="button" value="注销" />
+</div>
+
+<div class="returnMyself">
+	<input type="button" ng-click="return_myself()" value="返回" />
+</div>

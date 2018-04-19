@@ -1,0 +1,101 @@
+.login {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+}
+.login > span {
+  width: 100%;
+  height: 50px;
+  background-color: #FCFCFC;
+  display: block;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+.login > span > p {
+  width: 15%;
+  height: 50px;
+  float: left;
+  background-color: #FCFCFC;
+  text-align: center;
+  line-height: 50px;
+}
+.login > span > input {
+  width: 85%;
+  height: 50px;
+  float: right;
+  border: 0;
+  outline: none;
+  background-color: #FCFCFC;
+  color: #222;
+  font-size: 14px;
+}
+.login > nav {
+  width: 100%;
+  height: 50px;
+  color: #8B8B7A;
+  font-size: 15px;
+}
+.login > nav > span {
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+}
+.login > nav > span > a {
+  cursor: pointer;
+  color: #8B8B7A;
+}
+.login > nav > span > a:hover {
+  color: #222;
+}
+.login > nav > p {
+  width: 50%;
+  float: right;
+  height: 50px;
+  line-height: 50px;
+}
+.login > nav > p > a {
+  float: right;
+  color: #8B8B7A;
+  cursor: pointer;
+}
+.login > nav > p > a:hover {
+  color: #222;
+}
+.login > div {
+  width: 100%;
+  height: 50px;
+}
+.login > div > input {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  background-color: #4876FF;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.login > div > input:hover {
+  background-color: #7B68EE;
+}
+.login > div > a {
+  margin-top: 20px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #A1A1A1;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.login > div > a:hover {
+  background-color: #C1CDC1;
+}
+/*# sourceMappingURL=angular-login.css.map */

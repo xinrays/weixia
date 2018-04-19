@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="css/angular-sign.css" />
+<div class="clear"></div>
+<form class="sign">
+	<span>
+		<p>账号</p>
+		<input type="text" required ng-model="user"  placeholder="请输入手机号码" />
+	</span>
+	<span>
+		<p>密码</p>
+		<input type="password" ng-model="pass" required placeholder="请输入6-16位新密码" />
+	</span>
+	<div>
+		<input ng-click="sign()" type="submit" value="注册" />
+	</div>
+	<div>
+		<a href="#/login">返回</a>
+	</div>
+</form>
